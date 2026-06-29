@@ -25,3 +25,30 @@ console.log(typeof valueInNumber);
 let isloggedIn = 1 
 let booleanIsLoggedIn = boolean(isLoggedIn)
 console.log(booleanIsLoggrdIn)
+
+
+//*********** OPREATION  ************* *//
+
+let value = 3
+let negValue = -value
+console.log(negValue)
+
+// optput come negative bcz we use negvalue 
+
+console.log(2*2)
+console.log(2+2)
+console.log(2-2)
+console.log(2/5)
+console.log(2**3)
+
+// this all type of opreration
+
+let str1 = "hello"
+let str2 = " Vishal"
+let str3 = str1 + str2
+console.log(str3)
+
+// basically log str use for connect the word measn lie str1 is hello 
+// str2 is vishal so output come hello vishal 
+// Means str is add the two word 
+
