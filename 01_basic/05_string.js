@@ -17,7 +17,7 @@ console.log(gameName.__proto__);
  console.log(gameName.length);// length use for like how many words in your name etc like vishal me 6
  console.log(gameName.toUpperCase());
 console.log(gameName.charAt(2));// ye use hota hai character kis position pr hai uske liye hai example 2 pos pr S hai 
-console.log(gameName.indexOf('t')); // ye bhi same hai isme no pata krte hai ki s konse no pr hai 
+console.log(gameName.indexOf('s')); // ye bhi same hai isme no pata krte hai ki s konse no pr hai example S jo 2 no pr aata hai 
 
 const newString = gameName.substring(0, 4) // iska mtlb hai ki koi bhi word aage se start hoga EX VISH
 console.log(newString);
@@ -31,8 +31,8 @@ console.log(newStringOne.trim()); // they remoive space
 
 const url = "https://vishal.com/vishal%20yadav"
 
-console.log(url.replace('%20', '-')) // ye20% ko _ me convert krta 
+console.log(url.replace('%20', '-')) // ye20% ko _ me convert krta example vishal_yadav
 
-console.log(url.includes('yadaw')) // ye use hota hai ki ye word hai hai ki nhi means jo word likha hai wo use huwa hai ki nhi 
+console.log(url.includes('yadaw')) // ye use hota hai ki ye word hai hai ki nhi means jo word likha hai wo use huwa hai ki nhi example "yadaw"
 
 console.log(gameName.split('-')); // ye koi bhi chheez ko split krdeta hai 
